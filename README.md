@@ -1,26 +1,66 @@
-# UvA Information Retrieval 0
-Assignments for the Zoekmachines (IR0) course at the University of Amsterdam.
 
-## Setup
-Follow the steps below to set up the environment for the assignments.
+# UvA Information Retrieval 0 (IR0)
 
-1. Clone this repository to your local machine:
+Welcome to the assignments for the *Zoekmachines* (IR0) course at the University of Amsterdam.  
+This repository contains the weekly notebooks, datasets, and instructions needed to complete the coursework.
+
+## 🛠️ Setup Instructions
+
+To get started, follow the steps below to set up your environment.
+
+### 1. Clone this repository to your local machine:
 ```bash
-git clone git@github.com:irlabamsterdam/uva-ir0-assignments.git
-```
-2. Enter the repository:
+git clone https://github.com/irlabamsterdam/uva-ir0-assignments-2025.git
+cd uva-ir0-assignments-2025
+````
+
+> 🔁 **Note**: If you're using SSH, replace the URL accordingly:
+> `git@github.com:irlabamsterdam/uva-ir0-assignments-2025.git`
+
+
+### 2. Navigate into the cloned folder
+
 ```bash
-cd uva-ir0-assignments
+cd uva-ir0-assignments-2025
 ```
-3. We use Python 3.10 for the assignments. All additional dependencies are listed in `environment.yaml`. To set up a virtual environment with the correct Python version and dependencies, use [conda](https://docs.anaconda.com/miniconda/) or [mamba](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html). Mamba is a faster alternative to conda, and you can replace `conda` with `mamba` in all commands below:
+
+> 📁 You should now be inside the assignment folder where all files are located.
+
+### 3. Install dependencies using `conda` or `mamba`
+
+We recommend using [Miniconda](https://docs.anaconda.com/miniconda/) or [Mamba](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html).
+All required packages are listed in `environment.yaml`.
+
+Run the following to create a virtual environment:
+
 ```bash
 conda env create -f environment.yaml
-``` 
-4. Activate the environment in your current terminal session:
+```
+
+Or using mamba (faster):
+
+```bash
+mamba env create -f environment.yaml
+```
+
+### 4. Activate the environment
+
 ```bash
 conda activate uva-ir0-assignments
 ```
-5. Launch a JupyterLab server to work on the assignments:
+
+### 5. Launch JupyterLab
+
 ```bash
 python -m jupyterlab
 ```
+
+## 🤖 Python Version
+
+This project uses **Python 3.10**. Make sure your base environment supports this version.
+
+---
+For any issues or questions, please contact your course instructor or teaching assistant.
+
+                               Happy learning! ❤️
+
