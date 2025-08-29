@@ -60,7 +60,15 @@ python -m jupyterlab
 This project uses **Python 3.10**. Make sure your base environment supports this version.
 
 ---
-For any issues or questions, please contact your course instructor or teaching assistant.
+## 📚 Weekly Materials
 
-                               Happy learning! ❤️
+* [Week 1 – Introduction to Boolean Retrieval](https://github.com/irlabamsterdam/uva-ir0-assignments-2025/blob/main/assignments/week-1/week-1.ipynb)
+* [Week 2 – Ranking and Evaluation](https://github.com/irlabamsterdam/uva-ir0-assignments-2025/blob/main/assignments/week-2/week-2.ipynb)
+* [Week 3 – Preprocessing & Vector Space Modelk](ahttps://github.com/irlabamsterdam/uva-ir0-assignments-2025/blob/main/assignments/week-3/week-3.ipynb)
+* [Week 4 –  Learning to Rank & Vocabulary Mismatch](https://github.com/irlabamsterdam/uva-ir0-assignments-2025/blob/main/assignments/week-4/week-4.ipynb)
+* [Week 5 – Word Embeddings & Recommender Systems](https://github.com/irlabamsterdam/uva-ir0-assignments-2025/blob/main/assignments/week-5/week-5.ipynb)
+
+
+For any issues or questions, please contact your course instructor or teaching assistant.
+<p align="center"><strong>🎓 Happy learning! ❤️</strong></p>
 
